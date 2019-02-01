@@ -1,0 +1,47 @@
+:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
+ ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
+
+ #app {
+   max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5em
+ }
+
+.play_list {
+  background-color: #f1f3f4;
+  padding: .5em;
+}
+ 
+.play_list li {
+  cursor: pointer;
+}
+
+.play_list li.active {
+  font-weight: bold
+}
+.controll {
+  display: flex;
+  justify-content: center;
+  margin-top: .5em;
+  margin-bottom: .5em
+}
+
+.controll-btn {
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto
+}
+.controll-btn.active {
+  border-color: #00800000;
+  box-shadow: -3px 3px 4px 0px green;
+}
